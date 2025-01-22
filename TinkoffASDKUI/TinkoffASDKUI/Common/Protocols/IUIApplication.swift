@@ -19,4 +19,8 @@ extension IUIApplication {
     }
 }
 
-extension UIApplication: IUIApplication {}
+extension UIApplication: IUIApplication {
+    func open(_ url: URL, options: [OpenExternalURLOptionsKey : Any], completionHandler completion: ((Bool) -> Void)?) {
+        
+    }
+}
